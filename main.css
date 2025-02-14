@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f5; /* Soft pink background */
+    color: #4a4a4a; /* Dark gray for text */
+}
+
+/* Header Styles */
+#header {
+    background-color: #ff6f61; /* Valentine's red */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #ff4757; /* Slightly darker red for contrast */
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive; /* Romantic cursive font */
+}
+
+#header p {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* Intro Section */
+.intro {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro h1 {
+    color: #ff6f61; /* Valentine's red */
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro img {
+    max-width: 20%; /* Smaller image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 5px solid #ff6f61; /* Red border around the image */
+    display: block; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.intro h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro ul li {
+    background-color: #ff6f61;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.about img {
+    max-width: 20%; /* Smaller image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 5px solid #ff6f61;
+    display: block; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.about a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+/* Her Work Section */
+.her-work {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.her-work h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.her-work img {
+    max-width: 20%; /* Smaller image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 5px solid #ff6f61;
+    display: block; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.her-work p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Hobbies Section */
+.hobbies {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hobbies h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hobbies img {
+    max-width: 20%; /* Smaller image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 5px solid #ff6f61;
+    display: block; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbies p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer Styles */
+.foot {
+    background-color: #333;
+    color: white;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    border-top: 3px solid #ff6f61; /* Slightly thinner border */
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.foot h4 {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 1em; /* Smaller font size */
+}
+
+.foot a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #header h1 {
+        font-size: 2.5em;
+    }
+
+    #header p {
+        font-size: 1.2em;
+    }
+
+    .intro h1, .about h2, .her-work h2, .hobbies h2 {
+        font-size: 1.8em;
+    }
+
+    .intro ul li {
+        font-size: 1em;
+    }
+
+    .foot h4 {
+        font-size: 1em;
+    }
+
+    /* Adjust image size for smaller screens */
+    .intro img, .about img, .her-work img, .hobbies img {
+        max-width: 60%; /* Slightly larger on smaller screens */
+    }
+}
